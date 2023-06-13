@@ -24,7 +24,7 @@ export function isWebp() {
 
 export function burgerMenu() {
 	$('.header__burger').on("click", function (event) {
-		$('.header__burger, .header__menu').toggleClass('active');
+		$('.header__burger, .header__menu').toggleClass('open');
 		$('body').toggleClass('lock');
 	});
 }
@@ -131,5 +131,15 @@ export function tel() {
 		this.value += '-';
 	}
 }
-	};
+
+export function swiperInit() {
+	const sw = new Swiper('.swiper-container', {
+		slidesPerView: 'auto',
+		role: {
+			group: true,
+		},
+		spaceBetween: 40,
+	});
+
+	sw.init();
 }

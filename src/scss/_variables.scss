@@ -20,22 +20,23 @@ $xl:1400px;
 $font-family: "Montserrat";
 $font-size: 16px;
 $line-height: 1.5;
-$color: #000000;
+$color_main: #201D1D;
+$color_sec: #F8F8F8;
 
 // Кольори
-$main_color: #080707;
-$primary-color: #007bff;
-$secondary-color: #6c757d;
+$main_color: #384080;
+$primary-color: #FA373D;
+$secondary-color: #080617;
 $white_color: #ffffff;
 $black_color: #000000;
 $silver_color: #151414;
-$border_silver_color: #B8B8B8;
+$border_silver_color: #EBEBEB;
 
 // Розміщення блоків
 $container-width: 1200px;
 $spacing-unit: 20px;
 $section-heading-spacing: $spacing-unit * 4;
-$maxWidth: 1920;
+$maxWidth: 1600px;
 $maxWidthContainer: 1200;
 
 // Сітка

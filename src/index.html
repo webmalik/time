@@ -6,12 +6,14 @@
 })
 
 <body>
-	@@include("html/header.html", {})
-	<main>
-		@@include("html/main_new_project.html", {})
-	</main>
-	@@include("html/footer.html", {})
-	@@include("html/scripts.html", {})
+	<div class="wrapper">
+		@@include("html/header.html", {})
+		<main>
+			@@include("html/main.html", {})
+		</main>
+		@@include("html/footer.html", {})
+		@@include("html/scripts.html", {})
+	</div>
 </body>
 
 </html>

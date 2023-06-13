@@ -16,6 +16,7 @@
 	"devDependencies": {
 		"aos": "latest",
 		"browser-sync": "latest",
+		"css-loader": "^6.8.1",
 		"del": "latest",
 		"fs": "latest",
 		"gulp": "latest",
@@ -43,7 +44,8 @@
 		"jquery": "latest",
 		"sass": "latest",
 		"siema": "latest",
-		"swiper": "latest",
+		"style-loader": "^3.3.3",
+		"swiper": "^9.4.1",
 		"vinyl-ftp": "latest",
 		"webp-converter": "2.2.3",
 		"webpack": "latest",
