@@ -823,6 +823,62 @@ a {
   transition-delay: 0.15s;
 }
 
+.accordion__item {
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  border-bottom: 2px solid #EDEDED;
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 1rem;
+  color: #1A1D1F;
+  font-weight: 500;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+.accordion__header::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231A1D1F'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  content: "";
+  transition: transform 0.2s ease-out;
+}
+
+.accordion__item_show .accordion__header::after,
+.accordion__item_slidedown .accordion__header::after {
+  transform: rotate(-180deg);
+}
+
+.accordion__header:hover {
+  background-color: rgba(26, 29, 31, 0.1176470588);
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__header {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.accordion__content {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
 .big_circle,
 .big_circle > span {
   -webkit-border-radius: 50%;
@@ -3546,4 +3602,142 @@ header:before {
   line-height: 21px;
   letter-spacing: -0.3px;
   color: #FFFFFF;
+}
+
+.order-item__wrapper {
+  display: flex;
+  gap: 100px;
+  padding: 96px 0 200px;
+}
+.order-item__block {
+  width: 50%;
+}
+.order-item__img-large {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.order-item__img-large img {
+  width: 100%;
+}
+.order-item__img-small {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  overflow: hidden;
+  gap: 35px;
+  margin-top: 20px;
+}
+.order-item__img-small img {
+  width: 100%;
+}
+.order-item__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 40px;
+  color: #333333;
+}
+.order-item__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1A1D1F;
+}
+.order-item__tags {
+  display: inline-flex;
+  gap: 22px;
+  margin-top: 30px;
+}
+.order-item__price {
+  display: flex;
+  gap: 15px;
+  padding: 30px 0 20px;
+}
+.order-item__current-price {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #1A1D1F;
+}
+.order-item__old-price {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: #9A9FA5;
+  text-decoration: line-through;
+}
+.order-item .order__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.order-item__info h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1A1D1F;
+}
+.order-item__info p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1A1D1F;
+}
+.order-item__info p span {
+  border-bottom: 1px dashed #1A1D1F;
+}
+.order-item__bank img {
+  max-width: 165px;
+}
+.order-item__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order-item__button {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #EDEDED;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1A1D1F;
+  cursor: pointer;
+  width: 100%;
+  padding: 23px 0;
+}
+.order-item__accordion {
+  margin-top: 20px;
+}
+
+.tag__new {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  background: #668BFB;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.tag__rec {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #83BF6E;
+  background: rgba(131, 191, 110, 0.1);
+  border-radius: 5px;
+  padding: 5px 18px;
+}
+
+.button-black {
+  background: #1A1D1F;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 23px 0;
 }

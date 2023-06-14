@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Каталог товаров</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header__circle section1">
+	<div class="wrap_circle_block">
+		<div class="big_circle"> <span></span>
+			<div class="mid_circle"> <span></span>
+				<div class="sm_sircle"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-header">
+		<div class="header__logo">
+			<a href="#">Time</a>
+		</div>
+		<div class="header__burger" id="nav-icon1">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<nav class="header__menu">
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a href="#">Каталог</a>
+				</li>
+				<li class="menu__item">
+					<a href="#">О нас</a>
+				</li>
+				<li class="menu__item">
+					<a href="#">Контакты</a>
+				</li>
+				<li class="menu__item">
+					<a href="#">Способ оплаты</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header__site-info">
+			<div class="site-info__lang">
+				<a href="" class="lang__item active">EN</a>
+				<a href="" class="lang__item">UA</a>
+			</div>
+			<div class="site-info__tel">
+				<div class="tel__icon">
+					<img src="img/tel.svg" alt="Telephone">
+				</div>
+				<div class="tel__text">
+					<a href="tel:+44 (7735) 95 88 47">+44 (7735) 95 88 47</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="header__desc">
+		<div class="container">
+			<div class="header__block">
+				<div class="header__title title ">
+					<h1>
+						Каталог товаров
+					</h1>
+				</div>
+				<div class="header__subtitle subtitle ">
+					<h2>Каталог товаров</h2>
+				</div>
+			</div>
+			<div class="header__breadcrumbs">
+				<div class="breadcrumbs__item">
+					<a href="/">Home </a>
+				</div>
+				<div class="breadcrumbs__divider"></div>
+				<div class="breadcrumbs__item">
+					Каталог товаров
+				</div>
+			</div>
+		</div>
+	</section>
+</header>
+		<main>
+			<section class="order">
+	<div class="container-order">
+		<div class="order__wrapper">
+			<div class="order__filter order__block">
+				<div class="order__group">
+					<div class="order__title">
+						<h3>Sort by</h3>
+					</div>
+					<div class="order__select">
+						<select name="sort" id="sort">
+							<option value="#" selected>Distance</option>
+							<option value="#">Price</option>
+							<option value="#">Date</option>
+							<option value="#">Count</option>
+						</select>
+					</div>
+				</div>
+				<div class="order__group">
+					<div class="order__title">
+						<h3>Price Range</h3>
+					</div>
+					<div class="order__input">
+						<label for="Minimum">Minimum</label>
+						<input type="text" id="Minimum" placeholder="Min amount">
+						<label for="Maximum">Maximum</label>
+						<input type="text" id="Maximum" placeholder="Max amount">
+					</div>
+				</div>
+				<div class="order__group">
+					<div class="order__title">
+						<h3>Payment method</h3>
+					</div>
+					<div class="order__checkbox">
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="cash" class="ui-checkbox">
+							<label for="cash">Cash on delivery</label>
+						</div>
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="credit" class="ui-checkbox">
+							<label for="credit">Credit card</label>
+						</div>
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="debit" class="ui-checkbox">
+							<label for="debit">Debit card</label>
+						</div>
+					</div>
+				</div>
+				<div class="order__group">
+					<div class="order__title">
+						<h3>By Category</h3>
+					</div>
+					<div class="order__checkbox">
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="Analog" class="ui-checkbox">
+							<label for="Analog">Analog</label>
+						</div>
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="Digital" class="ui-checkbox">
+							<label for="Digital">Digital</label>
+						</div>
+						<div class="order__checkbox-item">
+							<input type="checkbox" id="Mirorless" class="ui-checkbox">
+							<label for="Mirorless">Mirorless</label>
+						</div>
+					</div>
+				</div>
+				<button class="order__button button">
+					Reset
+				</button>
+			</div>
+			<div class="order__main">
+				<div class="order__block">
+					<div class="order__search">
+						<label for="search">Search product</label>
+						<input type="text" name="search" id="search">
+					</div>
+				</div>
+				<div class="order__result">
+					<h3>Search result for <span>“app”</span></h3>
+				</div>
+				<div class="order__block">
+					<div class="order__product">
+						<img src="img/order.png" alt="">
+						<div class="product__wrapper">
+							<div class="product__title">
+								Taxi Taxi – Flutter Cab/Taxi Booking Apps
+							</div>
+							<div class="product__subtitle">
+								Taxi Taxi – Flutter Cab/Taxi Booking Apps
+							</div>
+							<div class="product__desc">
+								Software Version: <span>Flutter 2.x, Other</span>
+							</div>
+							<div class="product__info">
+								<div class="product__price-rate">
+									<div class="cost__price">
+										$169
+									</div>
+									<div class="cost__rate">
+										<span class="cost__star"></span>
+										<span class="cost__star"></span>
+										<span class="cost__star"></span>
+										<span class="cost__star"></span>
+										<span class="cost__star"></span>
+										<span class="cost__star"></span>
+									</div>
+								</div>
+								<div class="cost__count">
+									59 sales
+								</div>
+								<button class="cost__button button">
+									Buy
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		</main>
+		<footer class="footer">
+	<div class="container footer__wrapper">
+		<div class="footer__nav">
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#">E-Shop</a></li>
+				<li class="footer__item"><a href="#">Fintech</a></li>
+				<li class="footer__item"><a href="#">Web3</a></li>
+				<li class="footer__item"><a href="#">Outstaff</a></li>
+				<li class="footer__item"><a href="#">Portfolio</a></li>
+				<li class="footer__item"><a href="#">Blog</a></li>
+				<li class="footer__item"><a href="#">Ideas</a></li>
+				<li class="footer__item"><a href="#">About</a></li>
+			</ul>
+		</div>
+		<div class="footer__rights">
+			2023 © All rights reserved.
+		</div>
+	</div>
+</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/app.min.js"></script>
+	</div>
+</body>
+
+</html>
