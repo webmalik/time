@@ -20,10 +20,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-BoldItalic';
+	font-family: 'Montserrat-Bold';
 	font-display: swap;
-	src: url("../fonts/Montserrat-BoldItalic.woff") format("woff"), url("../fonts/Montserrat-BoldItalic.woff2") format("woff2");
-	font-weight: BoldItalic;
+	src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
+	font-weight: Bold;
 	font-style: normal;
 }
 @font-face {
@@ -41,10 +41,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-Bold';
+	font-family: 'Montserrat-BoldItalic';
 	font-display: swap;
-	src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
-	font-weight: Bold;
+	src: url("../fonts/Montserrat-BoldItalic.woff") format("woff"), url("../fonts/Montserrat-BoldItalic.woff2") format("woff2");
+	font-weight: BoldItalic;
 	font-style: normal;
 }
 @font-face {
@@ -69,13 +69,6 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-ExtraBoldItalic';
-	font-display: swap;
-	src: url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2");
-	font-weight: ExtraBoldItalic;
-	font-style: normal;
-}
-@font-face {
 	font-family: 'Montserrat-ExtraLight';
 	font-display: swap;
 	src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2");
@@ -90,17 +83,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-ExtraLight';
+	font-family: 'Montserrat-ExtraBoldItalic';
 	font-display: swap;
-	src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2");
-	font-weight: ExtraLight;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-ExtraLightItalic';
-	font-display: swap;
-	src: url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraLightItalic.woff2") format("woff2");
-	font-weight: ExtraLightItalic;
+	src: url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2");
+	font-weight: ExtraBoldItalic;
 	font-style: normal;
 }
 @font-face {
@@ -118,45 +104,24 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: 'Montserrat-ExtraLightItalic';
+	font-display: swap;
+	src: url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraLightItalic.woff2") format("woff2");
+	font-weight: ExtraLightItalic;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-ExtraLight';
+	font-display: swap;
+	src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2");
+	font-weight: ExtraLight;
+	font-style: normal;
+}
+@font-face {
 	font-family: 'Montserrat-Light';
 	font-display: swap;
 	src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
 	font-weight: Light;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-LightItalic';
-	font-display: swap;
-	src: url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.woff2") format("woff2");
-	font-weight: LightItalic;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-Light';
-	font-display: swap;
-	src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
-	font-weight: Light;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-Medium';
-	font-display: swap;
-	src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
-	font-weight: Medium;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-LightItalic';
-	font-display: swap;
-	src: url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.woff2") format("woff2");
-	font-weight: LightItalic;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-MediumItalic';
-	font-display: swap;
-	src: url("../fonts/Montserrat-MediumItalic.woff") format("woff"), url("../fonts/Montserrat-MediumItalic.woff2") format("woff2");
-	font-weight: MediumItalic;
 	font-style: normal;
 }
 @font-face {
@@ -167,6 +132,34 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: 'Montserrat-LightItalic';
+	font-display: swap;
+	src: url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.woff2") format("woff2");
+	font-weight: LightItalic;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Medium';
+	font-display: swap;
+	src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
+	font-weight: Medium;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	font-display: swap;
+	src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
+	font-weight: Light;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-LightItalic';
+	font-display: swap;
+	src: url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.woff2") format("woff2");
+	font-weight: LightItalic;
+	font-style: normal;
+}
+@font-face {
 	font-family: 'Montserrat-MediumItalic';
 	font-display: swap;
 	src: url("../fonts/Montserrat-MediumItalic.woff") format("woff"), url("../fonts/Montserrat-MediumItalic.woff2") format("woff2");
@@ -178,6 +171,27 @@
 	font-display: swap;
 	src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
 	font-weight: Medium;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-MediumItalic';
+	font-display: swap;
+	src: url("../fonts/Montserrat-MediumItalic.woff") format("woff"), url("../fonts/Montserrat-MediumItalic.woff2") format("woff2");
+	font-weight: MediumItalic;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	font-display: swap;
+	src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+	font-weight: SemiBold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Regular';
+	font-display: swap;
+	src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
+	font-weight: Regular;
 	font-style: normal;
 }
 @font-face {
@@ -202,13 +216,6 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-Regular';
-	font-display: swap;
-	src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
-	font-weight: Regular;
-	font-style: normal;
-}
-@font-face {
 	font-family: 'Montserrat-SemiBoldItalic';
 	font-display: swap;
 	src: url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff"), url("../fonts/Montserrat-SemiBoldItalic.woff2") format("woff2");
@@ -230,10 +237,10 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Montserrat-SemiBold';
+	font-family: 'Montserrat-Thin';
 	font-display: swap;
-	src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
-	font-weight: SemiBold;
+	src: url("../fonts/Montserrat-Thin.woff") format("woff"), url("../fonts/Montserrat-Thin.woff2") format("woff2");
+	font-weight: Thin;
 	font-style: normal;
 }
 @font-face {
@@ -241,12 +248,5 @@
 	font-display: swap;
 	src: url("../fonts/Montserrat-ThinItalic.woff") format("woff"), url("../fonts/Montserrat-ThinItalic.woff2") format("woff2");
 	font-weight: ThinItalic;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Montserrat-Thin';
-	font-display: swap;
-	src: url("../fonts/Montserrat-Thin.woff") format("woff"), url("../fonts/Montserrat-Thin.woff2") format("woff2");
-	font-weight: Thin;
 	font-style: normal;
 }
