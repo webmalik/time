@@ -1357,3 +1357,39 @@
 		}
 	}
 }
+
+//Payments section
+
+.payments {
+
+	&__subtitle {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 39px;
+		letter-spacing: -0.3px;
+		color: #333333;
+		padding: 70px 55px 54px;
+		margin: 0 auto;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__text {
+		padding: 35px 0 125px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+		letter-spacing: -0.3px;
+		color: #000000;
+	}
+}
