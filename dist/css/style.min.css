@@ -3916,6 +3916,32 @@ header:before {
     top: 0;
     left: 0;
   }
+  .mission__wrapper {
+    flex-direction: column;
+  }
+  .mission__desc {
+    max-width: 100%;
+  }
+  .mission__stat .stat__item {
+    justify-content: start;
+    width: 100%;
+  }
+  .mission__stat .stat__value {
+    min-width: 105px;
+    text-align: left;
+  }
+  .mission__stat .stat__desc {
+    text-align: left;
+  }
+  .mission__map {
+    width: 100%;
+  }
+  .mission__map img {
+    max-width: 100%;
+  }
+  .technology__list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (max-width: 767px) {
   .promo__list {
@@ -3924,6 +3950,9 @@ header:before {
 }
 @media (max-width: 630px) {
   .promo__list {
+    grid-template-columns: 1fr;
+  }
+  .technology__list {
     grid-template-columns: 1fr;
   }
 }
