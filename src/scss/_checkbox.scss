@@ -115,18 +115,18 @@
 	line-height: 12px;
 }
 
-.check:before {
-	content: "";
-	position: absolute;
-	top: -15px;
-	left: -15px;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
-	background: rgba(34, 50, 84, 0.03);
-	opacity: 0;
-	transition: opacity 0.2s ease;
-}
+// .check:before {
+// 	content: "";
+// 	position: absolute;
+// 	top: -15px;
+// 	left: -15px;
+// 	width: 25px;
+// 	height: 25px;
+// 	border-radius: 50%;
+// 	background: rgba(34, 50, 84, 0.03);
+// 	opacity: 0;
+// 	transition: opacity 0.2s ease;
+// }
 
 .check svg {
 	position: relative;
@@ -153,7 +153,7 @@
 }
 
 .check:hover:before {
-	opacity: 1;
+	//opacity: 1;
 }
 
 .check:hover svg {

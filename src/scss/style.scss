@@ -1470,6 +1470,15 @@
 			border-radius: 20px;
 			border: none;
 			line-height: 130%;
+			margin-top: 10px;
+		}
+
+		input#Minimum {
+			margin-bottom: 25px;
+		}
+
+		input::placeholder {
+			color: #AAAAAA;
 		}
 
 		label {
@@ -1478,6 +1487,7 @@
 			line-height: 130%;
 			color: #AAAAAA;
 			margin-bottom: 6px;
+			margin: 20px 0;
 		}
 	}
 
