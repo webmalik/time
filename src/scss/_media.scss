@@ -291,10 +291,62 @@
 			grid-template-columns: 1fr 1fr;
 		}
 	}
+
+	.request__contacts {
+		.request {
+			&__wrapper {
+				flex-direction: column;
+				gap: 40px;
+			}
+		}
+	}
+
+	.always {
+
+		.container {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		img {
+			position: relative;
+			top: 50px;
+		}
+
+		&__img {
+			left: 0;
+			right: 0;
+			position: relative;
+			width: 100%;
+			max-width: 100%;
+			order: 5;
+		}
+		&__img-before {
+			left: 0;
+			right: 0;
+			position: relative;
+			width: 100%;
+			max-width: 100%;
+			order: 9;
+
+		}
+		img.always__img-before {
+			position: absolute;
+			//top: -100%;
+			bottom: -130px;
+			top: auto;
+		}
+	}
 }
 
 @include media-width('767px', 'max') {
 	.promo {
+		&__list {
+			gap: 10px;
+		}
+	}
+
+	.technology {
 		&__list {
 			gap: 10px;
 		}

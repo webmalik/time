@@ -3942,9 +3942,45 @@ header:before {
   .technology__list {
     grid-template-columns: 1fr 1fr;
   }
+  .request__contacts .request__wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .always .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .always img {
+    position: relative;
+    top: 50px;
+  }
+  .always__img {
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    order: 5;
+  }
+  .always__img-before {
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    order: 9;
+  }
+  .always img.always__img-before {
+    position: absolute;
+    bottom: -130px;
+    top: auto;
+  }
 }
 @media (max-width: 767px) {
   .promo__list {
+    gap: 10px;
+  }
+  .technology__list {
     gap: 10px;
   }
 }
