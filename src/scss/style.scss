@@ -1,5 +1,4 @@
 @import "_reset";
-@import "_fonts";
 @import "_mixins";
 @import "_tamplates";
 @import "_variables";
@@ -13,6 +12,7 @@
 %header-font {
 	//@include adaptiv-value(18, 16);
 	@include adaptiv-value('font-size', 18, 16, 1);
+	font-weight: 400;
 }
 
 
@@ -70,6 +70,7 @@
 	&__item {
 		a {
 			@extend %header-font;
+			font-weight: 400;
 		}
 	}
 }
@@ -1803,17 +1804,6 @@
 	color: #FFFFFF;
 	cursor: pointer;
 	padding: 23px 0;
-}
-
-.accordion {
-
-	&__item {}
-
-	&__header {}
-
-	&__body {}
-
-	&__content {}
 }
 
 @import "_media";

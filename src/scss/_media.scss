@@ -307,6 +307,11 @@
 			display: flex;
 			flex-direction: column;
 		}
+
+		picture {
+			display: flex;
+			order: 5;
+		}
 		
 		img {
 			position: relative;
@@ -337,6 +342,22 @@
 			top: auto;
 		}
 	}
+
+	.payments {
+		&__list {
+			flex-direction: column;
+		}
+
+		&__text {
+			padding-bottom: 50px;
+		}
+
+		&__subtitle {
+			padding: 40px 0;
+		}
+	}
+
+	
 }
 
 @include media-width('767px', 'max') {
