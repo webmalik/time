@@ -24,7 +24,8 @@ export function isWebp() {
 
 export function burgerMenu() {
 	$('.header__burger').on("click", function (event) {
-		$('.header__burger, .header__menu').toggleClass('open');
+		$('.header__wr').toggleClass('active');
+		$('.header__burger').toggleClass('open');
 		$('body').toggleClass('lock');
 	});
 }
