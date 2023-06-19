@@ -39,19 +39,19 @@
 		
 	}
 
-		.promo {
-			&__list {
-				grid-template-columns: 1fr 1fr;
-			}
-	
-			&__button {
-	
-				&:before,
-				&:after {
-					width: 70%;
-				}
+	.promo {
+		&__list {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		&__button {
+
+			&:before,
+			&:after {
+				width: 70%;
 			}
 		}
+	}
 }
 
 
@@ -110,9 +110,18 @@
 		}
 	}
 
+	.primary__wrapper {
+		padding: 15px;
+	}
+
 	.container-header {
 		flex-direction: column;
+		//padding: 0;
+		&.order-header {
+			padding: 50px 30px;
+		}
 	}
+
 
 	.menu {
 		
